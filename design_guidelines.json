@@ -1,0 +1,134 @@
+{
+  "app_identity": {
+    "name": "SRIVANI BOOK STALL",
+    "vision": "The entire Srivani store, searchable from your phone.",
+    "tagline": "Books. Stationery. Education. Everything you need, under one roof.",
+    "telugu_tagline": "మీ చదువుకి, మీ గెలుపుకి — శ్రీవాణి బుక్ స్టాల్",
+    "location": "Beside Alphors College, Jagtial Road, Karimnagar, Telangana",
+    "trust_heritage": "20+ Years of Trust in Karimnagar"
+  },
+  "design_archetype": "Warm Paper & Literary Brass (Archetype 1 + Archetype 5 Hybrid)",
+  "color_palette": {
+    "theme": "Light",
+    "background_primary": "#FDFBF7",
+    "background_secondary": "#F5F0E6",
+    "background_card": "#FFFFFF",
+    "text_primary": "#1C1917",
+    "text_secondary": "#57534E",
+    "text_muted": "#78716C",
+    "primary_accent": "#D97706",
+    "primary_accent_hover": "#B45309",
+    "secondary_accent": "#065F46",
+    "whatsapp_green": "#16A34A",
+    "whatsapp_green_hover": "#15803D",
+    "border_subtle": "#E7E0D3",
+    "border_strong": "#D6CEBE",
+    "shelf_wood": "#3B2616",
+    "shelf_wood_light": "#5C3A21",
+    "badge_amber_bg": "#FEF3C7",
+    "badge_amber_text": "#92400E",
+    "badge_emerald_bg": "#D1FAE5",
+    "badge_emerald_text": "#065F46"
+  },
+  "typography": {
+    "heading_font": "'Cormorant Garamond', 'Playfair Display', Georgia, serif",
+    "body_font": "'Plus Jakarta Sans', 'DM Sans', -apple-system, sans-serif",
+    "mono_font": "'JetBrains Mono', monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-stone-900",
+      "h3_subsection": "text-xl sm:text-2xl font-serif font-semibold text-stone-800",
+      "h4_card": "text-lg sm:text-xl font-sans font-semibold text-stone-900",
+      "body": "text-base text-stone-700 leading-relaxed",
+      "caption_label": "text-xs font-semibold uppercase tracking-widest text-stone-500"
+    }
+  },
+  "layout_strategy": {
+    "spacing": "Generous (p-6, p-8, p-12, py-16, py-24). Never cram content.",
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "digital_shelf_layout": "Horizontal wood-grained shelf trim base with vertical stacked book card aesthetic, 3D shadow lift on hover, subtle paper grain background overlay.",
+    "responsive_grid": "Mobile first grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6",
+    "bento_grid": "Tetris Grid for 'Shop by Need' and 'Digital Shelves' with varying card spans (span 2 cols for Hero collections, span 1 for quick categories)"
+  },
+  "key_components": {
+    "header_nav": {
+      "announcement_bar": "Sticky warm amber/green bar: '📍 Beside Alphors College, Jagtial Road, Karimnagar | Open Today (9AM-9:30PM) | 📞 Call: +91 98492 12345'",
+      "main_header": "Glassmorphism header (bg-amber-50/90 backdrop-blur-md border-b border-stone-200 z-40) with Srivani logo, category dropdown, Hero instant search modal trigger, WhatsApp CTA, Admin link",
+      "mobile_bottom_bar": "Fixed bottom bar z-50 bg-stone-900 text-white flex justify-around p-3 md:hidden with Call, WhatsApp, Directions, Cart/Search buttons"
+    },
+    "hero_section": {
+      "title": "SRIVANI BOOK STALL / Books. Stationery. Education. Everything you need, under one roof.",
+      "search_bar": "Prominent search bar with instant autocomplete dropdown for Books, Authors, Publishers, Stationery, Exam materials",
+      "cta_buttons": "[Explore Catalogue] [Ask Srivani on WhatsApp]",
+      "quick_contact_pills": "Direct Call | WhatsApp Chat | Google Maps Directions"
+    },
+    "digital_counter_stats": {
+      "items": [
+        "1,500+ Products",
+        "25+ Categories",
+        "20+ Years of Trust",
+        "★★★★★ 4.9 Rating (2,500+ Local Students)",
+        "Open Today (9 AM - 9:30 PM)"
+      ]
+    },
+    "shop_by_need_tiles": [
+      "School Textbooks & Guides",
+      "College & Degree Books",
+      "Competitive Exam Materials",
+      "Office & School Stationery",
+      "Art & Craft Supplies",
+      "General Reading & Novels",
+      "Printing & Xerox Services"
+    ],
+    "shop_by_class_pills": [
+      "Class 1 to 5",
+      "Class 6 to 10 (State/CBSE)",
+      "Intermediate (MPC/BiPC/CEC/HEC)",
+      "Degree (B.Sc / B.Com / B.A)",
+      "Engineering (CSE/ECE/EEE/Mech)"
+    ],
+    "shop_by_exam_badges": [
+      "TSPSC / APPSC Group 1, 2, 4",
+      "UPSC Civil Services",
+      "SSC CGL / CHSL / GD",
+      "Banking (IBPS / SBI PO & Clerk)",
+      "Railways (RRB NTPC / Group D)",
+      "Police Constable & SI",
+      "Teaching (TET / TRT / DSC)"
+    ],
+    "digital_shelves": [
+      "SCHOOL SHELF",
+      "EXAM PREP SHELF",
+      "READING SHELF",
+      "STATIONERY SHELF",
+      "CREATIVE SHELF"
+    ],
+    "catalogue_page": {
+      "filters": ["Category", "Subcategory", "Author/Publisher", "Class/Grade", "Subject", "Exam Type", "Price Range", "Stock Status"],
+      "product_card": "Paper textured card, crisp cover image, publisher/author tag, ₹INR price, stock indicator ('In Store Counter'), 'Ask on WhatsApp' button, quick detail drawer trigger"
+    },
+    "product_detail_modal": {
+      "elements": ["High-res Cover Preview", "Book Details (ISBN, Publisher, Edition, Language, Class)", "Price & Discount Badge", "In-Store Availability Status at Karimnagar", "Direct WhatsApp Order Button (Pre-filled text)", "You May Also Need Cross-sell"]
+    },
+    "school_list_enquiry_form": {
+      "feature": "Upload Photo / PDF / Type School Book List -> Instant WhatsApp Send to Srivani Counter for quote"
+    },
+    "admin_panel": {
+      "design": "Clean high-density dashboard",
+      "views": ["Dashboard Overview", "Products Manager", "Add/Edit Product Modal", "CSV Bulk Import", "Categories & Shelves", "Offers & Banners", "School List Enquiries"]
+    }
+  },
+  "image_urls": {
+    "hero_bookstore_bg": "https://images.unsplash.com/photo-1601469090980-fc95e8d95544?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxib29rc3RvcmUlMjBib29rcyUyMGxpYnJhcnklMjBwYXBlciUyMHN0YXRpb25lcnklMjBzdGFja3xlbnwwfHx8fDE3ODkyOTk2NzN8MA&ixlib=rb-4.1.0&q=85",
+    "bookstack_shelves": "https://images.unsplash.com/photo-1607957333562-c760eee665ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxib29rc3RvcmUlMjBib29rcyUyMGxpYnJhcnklMjBwYXBlciUyMHN0YXRpb25lcnklMjBzdGFja3xlbnwwfHx8fDE3ODkyOTk2NzN8MA&ixlib=rb-4.1.0&q=85",
+    "library_aisle": "https://images.unsplash.com/photo-1431608660976-4fe5bcc2112c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHw0fHxib29rc3RvcmUlMjBib29rcyUyMGxpYnJhcnklMjBwYXBlciUyMHN0YXRpb25lcnklMjBzdGFja3xlbnwwfHx8fDE3ODkyOTk2NzN8MA&ixlib=rb-4.1.0&q=85",
+    "stationery_desk": "https://images.unsplash.com/photo-1776161562542-e8bc41b3b78a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxzdGF0aW9uZXJ5JTIwcGVucyUyMG5vdGVib29rcyUyMHN0dWR5JTIwZGVza3xlbnwwfHx8fDE3ODkyOTk2ODB8MA&ixlib=rb-4.1.0&q=85",
+    "student_study_night": "https://images.unsplash.com/photo-1764096534662-a194a348c4a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxzdGF0aW9uZXJ5JTIwcGVucyUyMG5vdGVib29rcyUyMHN0dWR5JTIwZGVza3xlbnwwfHx8fDE3ODkyOTk2ODB8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_and_accessibility": {
+    "data_testid_convention": "kebab-case, role-based, e.g. data-testid='hero-search-input', data-testid='whatsapp-enquire-button', data-testid='digital-shelf-school', data-testid='admin-csv-import-button'",
+    "contrast_ratio": "Minimum 4.5:1 for standard text, 3:1 for large display titles",
+    "prefers_reduced_motion": "Supported for all animated shelves and modal transitions"
+  },
+  "instructions_to_main_agent": "Use .js and .jsx files for React code. Custom components should be structured in src/components/. Maintain the physical bookstore digital shelf theme with warm paper tones, wooden shelf trims, prominent search, and instant WhatsApp integration throughout."
+}
